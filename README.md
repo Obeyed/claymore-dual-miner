@@ -1,5 +1,9 @@
 Dockerized [Claymore's dual miner](https://github.com/nanopool/Claymore-Dual-Miner).
 
+> **NOTE**: I do not recommend this miner.
+> I experienced that the miner would go offline many times, and the calculated hash rate was much lower than expected.
+> I would recommend [Anthony's miner](https://github.com/Anthony-Tatowicz/docker-ethminer) which was much more stable, and the hash rate was about double what this miner gives.
+
 Build it with:
 ```
 nvidia-docker build -t claymore-miner -f Dockerfile .
